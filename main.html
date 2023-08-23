@@ -9,27 +9,27 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-	<form action="/submit" method="post">
-		<fieldset>
-		<legend>feedback form</legend>
+	<form method="post" target="_blank555">
+		
 		<div>
-		<label for="name">Name</label>
-		<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+			<label for="name">name</label>
+			<input required id="name" type="text" minlength="3" maxlength="50">
 		</div>
-			<div>
-			<label for="portfolio">Portfolio</label>
-		<input type="url" id="portfolio" name="portfolio" required>
-			</div>
-		<label for="favColor">Favorite Color</label>
-		<input type="color" id="favColor" name="favColor" required>
-			<div>
-		<label for="likeness">Likeness</label>
-		<input type="range" min="1" max="100" required>
-				</div>
-			<div>
+		<div>
+			<label for="portfolio">portfolio</label>
+			<input required id="portfolio" type="url">
+		</div>
+		<div>
+			<label for="favColor">favColor</label>
+			<input required id="favColor" type="color">
+		</div>
+		<div>
+			<label for="likeness">likeness</label>
+			<input required id="likeness" type="range" min="1" max="100">
+		</div>
+		<div>
 			<button type="submit">Submit</button>
 		</div>
-		</fieldset>
 	</form>
     <script type="text/javascript" src="./script.js">
 </script>
